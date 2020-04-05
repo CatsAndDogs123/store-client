@@ -1,0 +1,68 @@
+.App {
+  outline: none;
+  text-align: center;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App button {
+  font: inherit;
+  padding: 5px;
+  margin: 2.459016393442623vh auto;
+  border: 1px solid #aa6817;
+  outline: none;
+}
+
+.App button:hover {
+  background-color: #ac9980;
+  border: 1px solid #7e7365;
+  cursor: pointer;
+}
+
+.buttons-container {
+  display: flex;
+  flex-flow: column;
+  width: 20vw;
+}
+
+.game-container {
+  width: 80vw;
+  margin: 0 18.515625vw 0 0;
+}
+
+.games-container div {
+  display: inline-block;
+  margin: 2.459016393442623vh 1.171875vw 2.459016393442623vh auto;
+  padding: 8px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.games-container div:hover {
+  cursor: pointer;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

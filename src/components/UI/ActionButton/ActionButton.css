@@ -1,0 +1,20 @@
+.ActionButton {
+  display: inline-block;
+  padding: 0.25rem 1rem;
+  text-decoration: none;
+  border: 1px solid #00695c;
+  color: #00695c;
+  background: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.ActionButton:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+  border: 1px solid #ccc;
+}
+
+.ActionButton:active {
+  background-color: #878f99;
+}

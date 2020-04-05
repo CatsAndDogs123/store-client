@@ -1,0 +1,17 @@
+.Logo {
+    background-color: #0D3F67;
+    padding: 1.3114754098360655vh 0.848356309650053vw;
+    height: 7vh;
+    box-sizing: border-box;
+    border-radius: 0.819672131147541vh 0.5302226935312832vw;
+}
+
+.Logo img {
+    height: 4vh;
+}
+
+@media (max-width: 499px) {
+    .Logo {
+        background-color: #fff;
+    }
+}

@@ -1,0 +1,23 @@
+.AddProduct {
+  margin: 20vh 35vw;
+}
+
+.AddProduct label,
+.AddProduct input,
+.AddProduct textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 2vh;
+}
+
+.AddProduct input,
+.AddProduct textarea {
+  border: 1px solid #a1a1a1;
+  font: inherit;
+  border-radius: 2px;
+}
+
+.AddProduct input:focus,
+.AddProduct textarea:focus {
+  outline-color: #00695c;
+}

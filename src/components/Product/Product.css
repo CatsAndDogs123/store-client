@@ -1,0 +1,29 @@
+.Product {
+  width: 30vw;
+  max-width: 95%;
+  margin: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.Product h5 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.Product h4 {
+  text-align: center;
+  color: #4d4d4d;
+  margin-bottom: 1vh;
+}
+
+.Product p {
+  text-align: center;
+}
+
+.Product div {
+  text-align: center;
+}
+
+.Product div button {
+  margin: 2vh 2vw;
+}

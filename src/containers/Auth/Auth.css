@@ -1,0 +1,23 @@
+.Auth {
+  margin: 20vh 35vw;
+}
+
+.Auth label,
+.Auth input,
+.Auth textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 2vh;
+}
+
+.Auth input,
+.Auth textarea {
+  border: 1px solid #a1a1a1;
+  font: inherit;
+  border-radius: 2px;
+}
+
+.Auth input:focus,
+.Auth textarea:focus {
+  outline-color: #00695c;
+}
