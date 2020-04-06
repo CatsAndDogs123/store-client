@@ -15,12 +15,36 @@ function App() {
     <BrowserRouter>
       <Layout className="App">
         <Switch>
-          <Route path="/add-product" exact component={AddProduct} />
-          <Route path="/cart" exact component={Cart} />
-          <Route path="/orders" exact component={Orders} />
-          <Route path="/auth" exact component={Auth} />
-          <Route path="/" exact component={Products} />
-          <Route path="/:id" exact component={Details} />
+          <Route
+            path="http://storeee-storey.apps.ocp-eu2.prod.nextcle.com/add-product"
+            exact
+            component={AddProduct}
+          />
+          <Route
+            path="http://storeee-storey.apps.ocp-eu2.prod.nextcle.com/cart"
+            exact
+            component={Cart}
+          />
+          <Route
+            path="http://storeee-storey.apps.ocp-eu2.prod.nextcle.com/orders"
+            exact
+            component={Orders}
+          />
+          <Route
+            path="http://storeee-storey.apps.ocp-eu2.prod.nextcle.com/auth"
+            exact
+            component={Auth}
+          />
+          <Route
+            path="http://storeee-storey.apps.ocp-eu2.prod.nextcle.com/"
+            exact
+            component={Products}
+          />
+          <Route
+            path="http://storeee-storey.apps.ocp-eu2.prod.nextcle.com/:id"
+            exact
+            component={Details}
+          />
           <Route render={() => <h1>Not found</h1>} />
         </Switch>
       </Layout>
