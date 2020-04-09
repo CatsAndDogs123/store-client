@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
+    "node-sass": "^4.13.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-redux": "^7.2.0",
@@ -12,6 +13,7 @@
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0"
   },
+  "homepage": "http://store-clientz-store2.apps.ocp-eu2.prod.nextcle.com",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

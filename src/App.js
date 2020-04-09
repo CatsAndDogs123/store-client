@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Layout from './containers/Layout/Layout';
-import './App.css';
+import './App.scss';
 import AddProduct from './containers/AddProduct/AddProduct';
 import Products from './containers/Products/Products';
 import Details from './containers/Products/Details/Details';
