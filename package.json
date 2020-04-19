@@ -13,7 +13,7 @@
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0"
   },
-  "homepage": "http://store-clientz-store2.apps.ocp-eu2.prod.nextcle.com",
+  "homepage": "http://storeee-storey.apps.ocp-eu2.prod.nextcle.com/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
